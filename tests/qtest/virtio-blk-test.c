@@ -17,7 +17,7 @@
 #include "libqos/qgraph.h"
 #include "libqos/virtio-blk.h"
 
-/* TODO actually test the results and get rid of this */
+
 #define qmp_discard_response(...) qobject_unref(qmp(__VA_ARGS__))
 
 #define TEST_IMAGE_SIZE         (64 * 1024 * 1024)
